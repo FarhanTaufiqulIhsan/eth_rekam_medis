@@ -263,8 +263,6 @@ async function viewRecord(patientAddress) {
 }
 
 // Function to add a new record
-// Function to add a new record
-// Function to add a new record
 async function addRecordButton() {
     try {
         // Ensure the user has given permission

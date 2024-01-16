@@ -13,8 +13,6 @@
 <body>
     <div class="container">
         <h1>Medical Record</h1>
-
-        <!-- Form to input a new record -->
         <form id="addRecordForm">
             <label for="addNewName">Name:</label>
             <input type="text" id="addNewName" required>
@@ -26,9 +24,8 @@
             <select id="addNewGender" required>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
-                <!-- Add more options as needed -->
-            </select>
 
+            </select>
             <label for="addNewDiagnosis">Diagnosis:</label>
             <input type="text" id="addNewDiagnosis" required>
 
@@ -37,7 +34,6 @@
             <div id="messageDiv" style="color: red;"></div>
         </form>
 
-        <!-- Form to view a record based on patient's address -->
         <form>
             <label for="patientAddress">Patient Address:</label>
             <input type="text" id="patientAddress" required>
@@ -45,7 +41,6 @@
             <button type="button" onclick="viewRecordButton()">View Record</button>
         </form>
 
-        <!-- Result of checking the record -->
         <p id="checkRecordResult"></p>
     </div>
 
